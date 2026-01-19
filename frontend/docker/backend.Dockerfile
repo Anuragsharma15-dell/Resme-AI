@@ -11,5 +11,5 @@ COPY ai-career-canvas/backend/ ./
 RUN corepack enable && corepack prepare pnpm@latest --activate || true
 RUN if [ -f pnpm-lock.yaml ]; then pnpm install --frozen-lockfile || true; else npm install || true; fi
 
-EXPOSE 5000
+EXPOSE 3000
 CMD ["node", "index.js"]
