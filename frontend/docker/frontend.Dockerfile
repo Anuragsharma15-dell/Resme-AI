@@ -18,5 +18,5 @@ RUN pnpm build
 # Install a small static server
 RUN pnpm add -g serve
 
-EXPOSE 3000
+EXPOSE 8080
 CMD ["serve", "-s", "dist", "-l", "3000"]
