@@ -5,7 +5,7 @@ WORKDIR /app
 RUN apk add --no-cache git
 
 # Copy backend source
-COPY backned/backend/backend/ ./
+COPY ai-career-canvas/backend/ ./
 
 # Enable corepack and install dependencies (supports pnpm/npm)
 RUN corepack enable && corepack prepare pnpm@latest --activate || true
