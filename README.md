@@ -2,7 +2,7 @@
 
 # AI Career Canvas
 
-![App Screenshot](./screenshot.png)
+![App Screenshot](frontend/public/Screenshot%202026-01-17%20150712.png)
 
 Professional, configurable portfolio and career toolkit with AI-powered features — built with a modern React + TypeScript frontend and a Node.js authentication backend.
 
