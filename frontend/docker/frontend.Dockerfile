@@ -9,7 +9,7 @@ RUN apk add --no-cache git
 RUN corepack enable && corepack prepare pnpm@latest --activate
 
 # Copy frontend source
-COPY ai-career-canvas/ ./
+COPY ai-career-canvas/frontend/ ./
 
 # Install and build
 RUN pnpm install --frozen-lockfile
